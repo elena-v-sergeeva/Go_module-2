@@ -3,16 +3,23 @@
 }
 
 body {
+  margin: 0;
+  font-family: Arial, sans-serif;
   background-color: #1B1A1B;
   color: #FFFFFF;
 }
 
-.blockquote__text {
-  text-transform: uppercase;
-}  
-
 .wrapper {
-  width: 1200px;
-  padding: 30px;
+  width: 1440px;
+  padding: 146px 130px 51px;
   margin: 0 auto;
+}
+
+.title__two {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-align: center;
 }
