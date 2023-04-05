@@ -2,17 +2,17 @@
   padding-top: 100px;
 }
 
-.title__two_faq {
+.faq__title {
   margin-bottom: 40px;
 }
 
-.question {
+.question__list {
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
 
-.question-item {
+.question__item {
   font-weight: 700;
   font-size: 24px;
   padding: 20px 70px;
@@ -20,30 +20,30 @@
   line-height: 46px;
 }
 
-.question-item:last-child {
+.question__item:last-child {
   margin-bottom: 0;
 }
 
-.question-item:nth-of-type(odd) {
+.question__item:nth-of-type(odd) {
   background-color: #fff;
   color: #1C1A1A;
 }
 
-.question-item:nth-of-type(even) {
+.question__item:nth-of-type(even) {
   background-color: #440F51;
   color: #fff;
 }
 
-.question-item:after {
+.question__item:after {
   width: 46px;
   height: 46px;
   float: right;
 }
 
-.question-item:nth-of-type(odd):after {
+.question__item:nth-of-type(odd):after {
   content: url(../img/open-purple.svg);
 }
 
-.question-item:nth-of-type(even):after {
+.question__item:nth-of-type(even):after {
   content: url(../img/open.svg);
 }

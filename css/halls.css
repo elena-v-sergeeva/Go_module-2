@@ -2,7 +2,7 @@
   padding-top: 100px;
 }
 
-.title__two_halls {
+.halls__title {
   margin-bottom: 60px;
 }
 
@@ -13,7 +13,7 @@
 
 .halls__item {
   margin-bottom: 60px;
-  padding: 275px 464px;
+  padding: 275px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1180px auto;
@@ -21,9 +21,14 @@
   list-style-type: none;
 }
 
-.halls__item_link {
+.halls__item:last-child {
+  margin-bottom: 0;
+} 
+
+.halls__link {
   display: block;
-  width: 252px;
+  margin: 0 auto;
+  max-width: 252px;
   font-weight: 700;
   font-size: 70px;
   line-height: 80px;
@@ -33,22 +38,18 @@
   color: #ffffff;
 }
 
-.halls__item:last-child {
-  margin-bottom: 0;
-} 
-
-.vibes {
+.halls__vibes {
   background-image: url(../img/vibes.jpg);
 }
 
-.starwars {
+.halls__starwars {
   background-image: url(../img/starwars.jpg);
 }
 
-.wildwest {
+.halls__wildwest {
   background-image: url(../img/wildwest.jpg);
 }
 
-.neon {
+.halls__neon {
   background-image: url(../img/neon.jpg);
 }

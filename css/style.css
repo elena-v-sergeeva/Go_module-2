@@ -10,8 +10,8 @@ body {
 }
 
 .wrapper {
-  width: 1440px;
-  padding: 146px 130px 51px;
+  max-width: 1240px;
+  padding: 146px 30px 51px;
   margin: 0 auto;
 }
 

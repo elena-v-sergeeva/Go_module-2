@@ -2,62 +2,47 @@
   padding-top: 100px;
 }
 
-.title__two_contacts {
-  margin-bottom: 50px;
+.footer__title {
+  margin-bottom: 60px;
 }
 
 .contacts__text {
+  padding-left: 60px;
+  display: block;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.17;
 }
 
-.contacts__address {
+.address {
   font-style: normal;
   margin-bottom: 35px;
-}
-
-.contacts__address_text {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 0 55px;
-  white-space: pre-wrap;
-  line-height: 0;
-}
-
-.contacts__address_text:before {
-  margin-top: 20px;
-  display: inline-block;
-  vertical-align: middle;
-  content: url(../img/location.svg);
-  width: 35px;
-  margin-right: 27px;
-}
-
-.contacts__list {
-  margin: 0;
   padding: 0;
+}
+
+.contacts__address {
+  display: inline-block;
+  margin: 0 0 40px;
+  white-space: pre;
+  background-image: url(../img/location.svg);
+  background-position: 0 40%;
+  background-repeat: no-repeat;
+  max-height: 60px;
+}
+
+.contacts__tel {
+  margin-bottom: 11px;
   list-style: none;
+  background-image: url(/img/phone.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
 }
 
-.contacts__list_tel {
-  margin-bottom: 10px;
-}
-
-.contacts__list_tel:before {
-  content: url(../img/phone.svg);
-  width: 35px;
-  margin-right: 27px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.contacts__list_mail:before {
-  content: url(../img/mail.svg);
-  width: 35px;
-  margin-right: 27px;
-  display: inline-block;
-  vertical-align: middle;
+.contacts__mail {
+  list-style: none;
+  background-image: url(../img/mail.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
 }
 
 .contacts__list_link {
@@ -65,16 +50,25 @@
   color: #fff;
 }
 
-.icons__list {
+.social {
+  display: inline-block;
   margin: 0;
   padding: 0;
-  width: 280px;
-  display: flex;
-  justify-content: space-between;
   list-style: none;
+  max-height: 50px;
 }
 
-.icons__list_item{
+.social__item {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-right: 22px;
+  max-height: 50px;
+}
+
+.social__link {
+  display: inline-block;
   color: #fff;
+  max-height: 50px;
 }
 
